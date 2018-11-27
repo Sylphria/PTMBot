@@ -1,8 +1,8 @@
 <?php
-$chanel_id='1554124381';
-$chanel_secret='4dcaf6dcf554a105cf64aaaf966cf7c7';
-$access_token='3dpztB8bJVB0oLtKLyOQuuKAz+0kwImsk7qzUdI1d3cyp81lis9JeaqN/pMzQD9jIkULSUOFFJy8kbdBil3LJLeHMzsBMjhWqZe9MqLtOmiVW6Q5nLKsqnM5C2RjA+4Uw46Ojcm8crZFHd5Eb3/sIAdB04t89/1O/w1cDnyilFU=';
-$uid='U276b787d18de24f2979a0fefd7cb1457';
+$chanel_id='15083202399';
+$chanel_secret='aa8a454d243c9a7e4eax665a45351a10b';
+$access_token='N88hbgyYYkuROaxr5kbIJrqb4GWtxD61+MsKxju6xkZM+/+zZ/uW4csX74tLQgSF5NRwKvNonlJupnCkm0EUXUbsABa+iQsQJTauTLwyEhs1r9iBlAH4YJlipisoKQla0tw2PDgNxB2c0xrzzX81EnAdB04t89/1O/w1cDnyilFU=';
+$uid='U018cd1e5f1005fbx928801b8d96cdef12';
 
 
 $thai_day_arr=array("อาทิตย์","จันทร์","อังคาร","พุธ","พฤหัสบดี","ศุกร์","เสาร์");
