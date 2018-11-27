@@ -1,8 +1,7 @@
 <?php
 $chanel_id='1554124381';
 $chanel_secret='4dcaf6dcf554a105cf64aaaf966cf7c7';
-$access_token='3dpztB8bJVB0oLtKLyOQuuKAz+0kwImsk7qzUdI1d3cyp81lis9JeaqN/pMzQD9jIkULSUOFFJy8kbdBil3LJLeHMzsBMjhWqZe9MqLtOmiVW6Q5nLKsqnM5C2RjA+4Uw46Ojcm8crZFHd5Eb3/sIAdB04t89/1O/w1cDnyilFU=
-';
+$access_token='jgAhX6d4MS4O+oEZrL8xfb12vh6Zq5mKCfIx5F4pjdrBRrlhUaj2HChnWnmC55AAIkULSUOFFJy8kbdBil3LJLeHMzsBMjhWqZe9MqLtOmj1UVewSBSA0TdAC8fAeASRSOlLDZ4xYXW+ECxm+xbvogdB04t89/1O/w1cDnyilFU=';
 $uid='U276b787d18de24f2979a0fefd7cb1457';
 
 
