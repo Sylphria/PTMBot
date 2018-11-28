@@ -50,7 +50,13 @@ function answer($text){
 \nตรวจสอบรายการที่แอดมินทำแล้วที่นี่ https://docs.google.com/spreadsheets/d/1J6X6iHQ3SGpJZHhy1CzxWx1jx1qovK1dxR6YL9BlgQo/edit?usp=sharing";
 			break;
 		}
-		
+
+		$regex = '/(ขอ|ลืม).?(user|ยุสเซอ|ยูสเซอร์|ยุสเซอร์|ยูสเซอ|รหัส).{0,20}ptm/i';
+		if(preg_match($regex ,$text)){	
+		$hint = "user และ password ของระบบ PTM ใช้รหัสเดียวกับ Polis ดูวิธีขอได้ที่นี่
+\n https://drive.google.com/open?id=0B7nTI-InTW94MXBucjc1d1FKSDQ";
+			break;
+		}
 		
 		$regex = '/(ขอ|ขอเพิ่ม|เพิ่ม|ขอใช้).{0,10}(สิท|สิทธิ|สิด|สิทธิ์).*PTM/i';
 		if(preg_match($regex ,$text)){	
