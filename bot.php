@@ -58,14 +58,20 @@ function answer($text){
 			break;
 		}
 		
+		$regex = '/(ดู|ตรวจ).?เลข13หลัก/i'; 
+		if(preg_match($regex ,$text)){	
+			$hint = "คู่มือการตรวจสอบเลข 13 หลัก https://drive.google.com/open?id=1QDACQjiiPeENEhzhuCpyJk1Nrkd5ij6w";
+			break;
+
+		}
+	
 		$regex = '/(ขอ|ขอเพิ่ม|เพิ่ม|ขอใช้).{0,10}(สิท|สิทธิ|สิด|สิทธิ์).*PTM/i';
 		if(preg_match($regex ,$text)){	
 		$hint = "ใครยังไม่มีสิทธิ PTM ขอที่นี่เท่านั้นนะครับ(เฉพาะสิทธิ PTM)👉🏼 https://docs.google.com/forms/d/e/1FAIpQLSf24tN-VSpIG-fakLQjvKdqAPPl3j5GWpbqnU_9FCMVN6d4qw/viewform
 \nตรวจสอบรายการที่กำหนดสิทธิ์ 👉🏼 https://docs.google.com/spreadsheets/d/1DzRGXqItzcjZ8APlkOKLX65bnp7oPzQkzuraMcuz4_o/edit?usp=sharing";
 			break;
 		}
-	
-		//
+		
 		$is_match=false;
 		$regex=array('/Portable/i','/(google chrome|googlechrome|กูเกิ้ลโครม){1,1}.{0,20}น้อยกว่า.{0,10}40/i');
 		foreach($regex as $reg){
@@ -261,6 +267,13 @@ $hint = "SSL VPN เป็นช่องทางพิเศษ เพื่�
 			$arr_hint=array('อ้อมๆก็ไม่ไหวครับเปลืองน้ำมัน','อ้อมน้อยหรือ้อมใหญ่ครับ');
 			$hint= $arr_hint[mt_rand(0,count($arr_hint)-1)];
 			break;
+		}
+
+		$regex = '/^(บอทเต้น){1,1}$/i';
+		if(preg_match($regex ,$text)){	
+		$arr_hint=array('♪(┌・。・)┌   ┏(･o･)┛♪┗ (･o･) ┓  ┗(＾0＾)┓  °\(^▿^)/°');
+		$hint= $arr_hint[mt_rand(0,count($arr_hint)-1)];
+		break;
 		}
 		
 		$regex = '/(ptm){1,1}.?คือ/i';
