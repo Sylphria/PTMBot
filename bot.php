@@ -60,7 +60,8 @@ function answer($text){
 		
 		$regex = '/(ดู|ตรวจ).?เลข13หลัก/i'; 
 		if(preg_match($regex ,$text)){	
-			$hint = "คู่มือการตรวจสอบเลข 13 หลัก https://drive.google.com/open?id=1QDACQjiiPeENEhzhuCpyJk1Nrkd5ij6w";
+			$hint = "คู่มือการตรวจสอบเลข 13 หลัก 
+			\nhttps://drive.google.com/open?id=1QDACQjiiPeENEhzhuCpyJk1Nrkd5ij6w";
 			break;
 
 		}
