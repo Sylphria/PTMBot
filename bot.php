@@ -235,7 +235,7 @@ function answer($text){
 			เพื่อใช้ในการเข้าสู่ระบบในโปรแกรม Global Protect เปิดโปรแกรม Browser เช่น Google Chrome , IE หรือ Firefox และพิมพ์ที่อยู่เว็บไซต์ในช่อง
 			ด้านบนของโปรแกรม Browser เป็น http://118.175.46.5 หรือ www.sslvpn.police.go.th
 			\nดาวน์โหลดตัวอย่างเอกสาร https://drive.google.com/open?id=1uoZc-Q3PyR6xcy7Ndk9XqRi8JBTiFUVi
-			\nคู่มือการสมัครใช้งาน https://drive.google.com/file/d/1zG_m8NiEsnxBB3WW9r4YyosNW9qdM_M7/
+			\nคู่มือการสมัครใช้งาน https://drive.google.com/open?id=1snx0Ub19sOU6ddDH3maLV-OypTkSfW8w
 			\nหากพบปัญหาในการสมัครใช้งาน สามารถติดต่อได้ที่
 			\nLine ID : @citc.network
 			\n*กลุ่มงานเครือข่าย 022052209
@@ -280,9 +280,9 @@ function answer($text){
 		/*การเงิน*/
 		$regex = '/(เบิกเงินรางวัล|แบ่งเงินรางวัล|ส่วนแบ่งเงินรางวัล)/i';
 		if(preg_match($regex ,$text)){	
-$hint = "การเบิกเงินรางวัล ให้ทำเหมือนเดิมครับ แต่สิ่งที่มาช่วยการจัดสรรเงินรางวัล หน่วยงานสามารถเปิดดูรายงานการชำระเงิน PTM (มีชื่อ-นามสกุลผู้ออกใบสั่ง)+ statement ของหน่วยงานค่ะ
-\nถ้าไม่แน่ใจในเรื่องระเบียบงั้นลองถามท่านรองรำไพตรงกองการเงินนะคะเพราะวันอบรมท่านรองก็มีพูดแล้ว ใช้รายงานจากระบบptm และstatement แทนค่ะ
-\nเพิ่มเติมอ่าน https://drive.google.com/open?id=1DjQ9AWg-o3m1bFAGe-6217AhQbYywpJV";
+			$hint = "การเบิกเงินรางวัล ให้ทำเหมือนเดิมครับ แต่สิ่งที่มาช่วยการจัดสรรเงินรางวัล หน่วยงานสามารถเปิดดูรายงานการชำระเงิน PTM (มีชื่อ-นามสกุลผู้ออกใบสั่ง)+ statement ของหน่วยงานค่ะ
+			\nถ้าไม่แน่ใจในเรื่องระเบียบงั้นลองถามท่านรองรำไพตรงกองการเงินนะคะเพราะวันอบรมท่านรองก็มีพูดแล้ว ใช้รายงานจากระบบptm และstatement แทนค่ะ
+			\nเพิ่มเติมอ่าน https://drive.google.com/open?id=1DjQ9AWg-o3m1bFAGe-6217AhQbYywpJV";
 			break;
 		}
 		
