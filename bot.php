@@ -40,21 +40,27 @@ function answer($text){
 	while(true){
 	$regex = '/(ขอ|ลืม).?(user|ยุสเซอ|ยูสเซอร์|ยุสเซอร์|ยูสเซอ|รหัส).{0,20}polis/i';
 		if(preg_match($regex ,$text)){	
-			$hint = "ถ้าไม่มี userPOLIS หรือ ลืมรหัส https://drive.google.com/open?id=0B7nTI-InTW94MXBucjc1d1FKSDQ";
+			$hint = "ถ้าไม่มี userPOLIS หรือ ลืมรหัส https://drive.google.com/open?id=0B7nTI-InTW94MXBucjc1d1FKSDQ
+			\nหากพบปัญหาในการสมัครใช้งาน สามารถติดต่อได้ที่
+			\nLine ID : @citc.database";
 			break;
 		}
 		
 		$regex = '/(ช่วยราชการ)/i';
 		if(preg_match($regex ,$text)){	
 		$hint = "กรณีมาช่วยราชการ แจ้งรายละเอียดที่นี่ https://goo.gl/forms/PCRror9giDgXwidX2
-\nตรวจสอบรายการที่แอดมินทำแล้วที่นี่ https://docs.google.com/spreadsheets/d/1J6X6iHQ3SGpJZHhy1CzxWx1jx1qovK1dxR6YL9BlgQo/edit?usp=sharing";
+			\nตรวจสอบรายการที่แอดมินทำแล้วที่นี่ https://docs.google.com/spreadsheets/d/1J6X6iHQ3SGpJZHhy1CzxWx1jx1qovK1dxR6YL9BlgQo/edit?usp=sharing
+			\nหากพบปัญหาในการสมัครใช้งาน สามารถติดต่อได้ที่
+			\nLine ID : @citc.database";
 			break;
 		}
 
 		$regex = '/(ขอ|ลืม).?(user|ยุสเซอ|ยูสเซอร์|ยุสเซอร์|ยูสเซอ|รหัส).{0,20}ptm/i';
 		if(preg_match($regex ,$text)){	
 			$hint = "user และ password ของระบบ PTM ใช้รหัสเดียวกับ Polis ดูวิธีขอได้ที่นี่
-			\nhttps://drive.google.com/open?id=0B7nTI-InTW94MXBucjc1d1FKSDQ";
+			\nhttps://drive.google.com/open?id=0B7nTI-InTW94MXBucjc1d1FKSDQ
+			\nหากพบปัญหาในการสมัครใช้งาน สามารถติดต่อได้ที่
+			\nLine ID : @citc.database";
 			break;
 		}
 		
