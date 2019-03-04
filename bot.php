@@ -240,7 +240,7 @@ function answer($text){
 			\nเนื่องจาก ศทก. ได้เปลี่ยนแปลงระบบการลงทะเบียนขอ Username และ Password
 			สำหรับใช้งาน SSL-VPN ใหม่ จึงให้ท่านลงทะเบียนใหม่ พร้อมกรอกหมายเลข โทรศัพท์
 			เพื่อใช้ในการเข้าสู่ระบบในโปรแกรม Global Protect เปิดโปรแกรม Browser เช่น Google Chrome , IE หรือ Firefox และพิมพ์ที่อยู่เว็บไซต์ในช่อง
-			ด้านบนของโปรแกรม Browser เป็น http://118.175.46.5 หรือ www.sslvpn.police.go.th
+			ด้านบนของโปรแกรม Browser เป็น http://118.175.46.5 หรือ http://sslvpn.police.go.th
 			\nดาวน์โหลดตัวอย่างเอกสาร 
 			https://drive.google.com/open?id=1uoZc-Q3PyR6xcy7Ndk9XqRi8JBTiFUVi
 			\nคู่มือการสมัครใช้งาน 
