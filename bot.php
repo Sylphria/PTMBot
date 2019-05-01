@@ -75,11 +75,7 @@ function answer($text){
 		$regex = '/(ขอ|ขอเพิ่ม|เพิ่ม|ขอใช้).{0,10}(สิท|สิทธิ|สิด|สิทธิ์).*PTM/i';
 		if(preg_match($regex ,$text)){	
 			$hint = "การขอสิทธิ PTM ให้ทำผ่านระบบ Polis มาโดยช่องปฏิบัติหน้าที่ให้กรอกว่า ใช้งานระบบ PTM
-<<<<<<< HEAD
 			\nวิธีการขอดังนี้ : https://drive.google.com/open?id=1CEfrynQpOygFCBhIlwr7ADuVZXW2twyz
-=======
-			\nวิธีการขอดังนี้ : https://drive.google.com/open?id=1zuHN_N_NDU0zfq08JmRvkMmT8nn6xQqK
->>>>>>> parent of 2d0f88a... Update bot.php
 			\nหากเป็นเจ้าหน้าที่ ภจว. ทำการแจกจ่ายใบสั่งให้กดขอช่วยราชการที่ ภจว. ตนเองมาด้วย
 			\nหากพบปัญหาในการสมัครใช้งาน สามารถติดต่อได้ที่
 			\nLine ID : @citc.database";
