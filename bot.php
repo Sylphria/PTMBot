@@ -55,6 +55,7 @@ function answer($text){
 			break;
 		}
 		*/
+		
 		$regex = '/(ช่วยราชการ)/i';
 		if(preg_match($regex ,$text)){	
 		$hint = "กรณีมาช่วยราชการ ให้ทำผ่านระบบ Polis เข้ามา
@@ -90,6 +91,7 @@ function answer($text){
 			break;
 		}
 		*/
+
 		$regex = '/(ขอ|ขอเพิ่ม|เพิ่ม|ขอใช้).{0,10}(สิท|สิทธิ|สิด|สิทธิ์).*PTM/i';
 		if(preg_match($regex ,$text)){	
 			$hint = "การขอสิทธิ PTM ให้ทำผ่านระบบ Polis มาโดยช่องปฏิบัติหน้าที่ให้กรอกว่า "ใช้งานระบบ PTM" 
