@@ -49,7 +49,7 @@ function answer($text){
 		$regex = '/(ช่วยราชการ)/i';
 		if(preg_match($regex ,$text)){	
 		$hint = "กรณีมาช่วยราชการ ให้ทำผ่านระบบ Polis เข้ามา
-			\nวิธีการขอดังนี้ : https://drive.google.com/open?id=1zuHN_N_NDU0zfq08JmRvkMmT8nn6xQqK
+			\nวิธีการขอดังนี้ : https://drive.google.com/open?id=1CEfrynQpOygFCBhIlwr7ADuVZXW2twyz
 			\nหากพบปัญหาในการสมัครใช้งาน สามารถติดต่อได้ที่
 			\nLine ID : @citc.database";
 			break;
@@ -74,8 +74,8 @@ function answer($text){
 
 		$regex = '/(ขอ|ขอเพิ่ม|เพิ่ม|ขอใช้).{0,10}(สิท|สิทธิ|สิด|สิทธิ์).*PTM/i';
 		if(preg_match($regex ,$text)){	
-			$hint = "การขอสิทธิ PTM ให้ทำผ่านระบบ Polis มาโดยช่องปฏิบัติหน้าที่ให้กรอกว่า ใช้งานระบบ PTM
-			\nวิธีการขอดังนี้ : https://drive.google.com/open?id=1zuHN_N_NDU0zfq08JmRvkMmT8nn6xQqK
+			$hint = "การขอสิทธิ PTM ให้ทำผ่านระบบ Polis มาโดยช่องปฏิบัติหน้าที่ให้กรอกว่า "ใช้งานระบบ PTM"
+			\nวิธีการขอดังนี้ : https://drive.google.com/open?id=1CEfrynQpOygFCBhIlwr7ADuVZXW2twyz
 			\nหากเป็นเจ้าหน้าที่ ภจว. ทำการแจกจ่ายใบสั่งให้กดขอช่วยราชการที่ ภจว. ตนเองมาด้วย
 			\nหากพบปัญหาในการสมัครใช้งาน สามารถติดต่อได้ที่
 			\nLine ID : @citc.database";
@@ -96,6 +96,7 @@ function answer($text){
 		if($is_match){
 			break;
 		}
+	}
 			
 	//
 	$is_match=false;
@@ -168,10 +169,7 @@ function answer($text){
 		if($is_match){
 			break;
 		}
-		
-		
-	
-	
+
 	//
 	$is_match=false;
 	$regex=array(
