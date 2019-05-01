@@ -38,7 +38,7 @@ function answer($text){
 	$regex = $str = '';
 	$hint = '';
 	while(true){
-		$regex = '/(ขอ|ลืม).?(user|ยุสเซอ|ยูสเซอร์|ยุสเซอร์|ยูสเซอ|รหัส).{0,20}polis/i';
+		$regex = '/(ขอ|ลืม).?(user|ยุสเซอ|ยูสเซอร์|ยุสเซอร์|ยูสเซอ|รหัส|รหัสผ่าน).{0,20}polis/i';
 		if(preg_match($regex ,$text)){	
 			$hint = "ถ้าไม่มี userPOLIS หรือ ลืมรหัส https://drive.google.com/open?id=0B7nTI-InTW94MXBucjc1d1FKSDQ
 			\nหากพบปัญหาในการสมัครใช้งาน สามารถติดต่อได้ที่
@@ -55,7 +55,7 @@ function answer($text){
 			break;
 		}
 
-		$regex = '/(ขอ|ลืม).?(user|ยุสเซอ|ยูสเซอร์|ยุสเซอร์|ยูสเซอ|รหัส).{0,20}ptm/i';
+		$regex = '/(ขอ|ลืม).?(user|ยุสเซอ|ยูสเซอร์|ยุสเซอร์|ยูสเซอ|รหัส|รหัสผ่าน).{0,20}ptm/i';
 		if(preg_match($regex ,$text)){	
 			$hint = "user และ password ของระบบ PTM ใช้รหัสเดียวกับ Polis ดูวิธีขอได้ที่นี่
 			\nhttps://drive.google.com/open?id=0B7nTI-InTW94MXBucjc1d1FKSDQ
