@@ -38,7 +38,7 @@ function answer($text){
 	$regex = $str = '';
 	$hint = '';
 	while(true){
-	$regex = '/(ขอ|ลืม).?(user|ยุสเซอ|ยูสเซอร์|ยุสเซอร์|ยูสเซอ|รหัส).{0,20}polis/i';
+		$regex = '/(ขอ|ลืม).?(user|ยุสเซอ|ยูสเซอร์|ยุสเซอร์|ยูสเซอ|รหัส).{0,20}polis/i';
 		if(preg_match($regex ,$text)){	
 			$hint = "ถ้าไม่มี userPOLIS หรือ ลืมรหัส https://drive.google.com/open?id=0B7nTI-InTW94MXBucjc1d1FKSDQ
 			\nหากพบปัญหาในการสมัครใช้งาน สามารถติดต่อได้ที่
@@ -97,6 +97,7 @@ function answer($text){
 		if($is_match){
 			break;
 		}
+	}
 			
 	//
 	$is_match=false;
