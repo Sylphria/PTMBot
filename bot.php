@@ -70,6 +70,8 @@ function answer($text){
 			\nโดยช่องปฏิบัติหน้าที่ให้กรอกว่า 'ใช้งานระบบ PTM'
 			\nวิธีการขอดังนี้ : https://drive.google.com/open?id=1CEfrynQpOygFCBhIlwr7ADuVZXW2twyz
 			\nหากเป็นเจ้าหน้าที่ ภจว. ทำการแจกจ่ายใบสั่งให้กดขอช่วยราชการที่ ภจว. ตนเองมาด้วย
+			\nสิทธิใบสั่งกล้องอนุมัติเฉพาะหน่วยงานที่ทำโครงการส่งมาแล้วเท่านั้น
+			\nกำหนดหลักเกณฑ์ใบสั่งกล้อง : https://drive.google.com/open?id=1_r35omdRiw1jsNW7M8LrPZfoyB3UZCvI
 			\nหากพบปัญหาในการสมัครใช้งาน สามารถติดต่อได้ที่
 			\nLine ID : @citc.database";
 			break;
