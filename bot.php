@@ -54,7 +54,6 @@ function answer($text){
 			\nLine ID : @citc.database";
 			break;
 		}
-	
 
 		$regex = '/(ขอ|ลืม).?(user|ยุสเซอ|ยูสเซอร์|ยุสเซอร์|ยูสเซอ|รหัส).{0,20}ptm/i';
 		if(preg_match($regex ,$text)){	
@@ -97,7 +96,6 @@ function answer($text){
 		if($is_match){
 			break;
 		}
-	}
 			
 	//
 	$is_match=false;
