@@ -63,18 +63,11 @@ function answer($text){
 			\nLine ID : @citc.database";
 			break;
 		}
-		
-		$regex = '/(ดู|ตรวจ).?เลข13หลัก/i'; 
-		if(preg_match($regex ,$text)){	
-			$hint = "คู่มือการตรวจสอบเลข 13 หลัก 
-			\nhttps://drive.google.com/open?id=1QDACQjiiPeENEhzhuCpyJk1Nrkd5ij6w";
-			break;
-
-		}
 
 		$regex = '/(ขอ|ขอเพิ่ม|เพิ่ม|ขอใช้).{0,10}(สิท|สิทธิ|สิด|สิทธิ์).*PTM/i';
 		if(preg_match($regex ,$text)){	
-			$hint = "การขอสิทธิ PTM ให้ทำผ่านระบบ Polis มาโดยช่องปฏิบัติหน้าที่ให้กรอกว่า 'ใช้งานระบบ PTM'
+			$hint = "การขอสิทธิ PTM ให้ทำผ่านระบบ Polis มา
+			\nโดยช่องปฏิบัติหน้าที่ให้กรอกว่า 'ใช้งานระบบ PTM'
 			\nวิธีการขอดังนี้ : https://drive.google.com/open?id=1CEfrynQpOygFCBhIlwr7ADuVZXW2twyz
 			\nหากเป็นเจ้าหน้าที่ ภจว. ทำการแจกจ่ายใบสั่งให้กดขอช่วยราชการที่ ภจว. ตนเองมาด้วย
 			\nหากพบปัญหาในการสมัครใช้งาน สามารถติดต่อได้ที่
