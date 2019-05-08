@@ -295,7 +295,7 @@ function answer($text){
 		/*กรุงไทย*/
 		$regex = '/(คู่มือ|วิธีใช้งาน){1}.*(ระบบ)*.?PTM/i'; 
 		if(preg_match($regex ,$text)){	
-			$hint = "คู่มือการใช้งานระะบบ PTM ดาวน์โหลดที่นี่ https://drive.google.com/open?id=1g8dfK58g4_x4k9CKVzbyhGSjWX5uNTIe";
+			$hint = "คู่มือการใช้งานระะบบ PTM ดาวน์โหลดที่นี่ https://drive.google.com/open?id=1bPRQVIplju_KhAXKMwK_q-qiP8JAp152";
 			break;
 		}
 		
