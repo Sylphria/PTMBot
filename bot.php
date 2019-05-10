@@ -292,10 +292,15 @@ function answer($text){
 			break;
 		}
 		
-		/*กรุงไทย*/
 		$regex = '/(คู่มือ|วิธีใช้งาน){1}.*(ระบบ)*.?PTM/i'; 
 		if(preg_match($regex ,$text)){	
 			$hint = "คู่มือการใช้งานระะบบ PTM ดาวน์โหลดที่นี่ https://drive.google.com/open?id=1bPRQVIplju_KhAXKMwK_q-qiP8JAp152";
+			break;
+		}
+
+		$regex = '/(คืนใบสั่ง)/i'; 
+		if(preg_match($regex ,$text)){	
+			$hint = "วิธีการคืนใบสั่งดูตามคู่มือหน้า 34 https://drive.google.com/open?id=1bPRQVIplju_KhAXKMwK_q-qiP8JAp152";
 			break;
 		}
 		
