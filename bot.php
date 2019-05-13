@@ -40,27 +40,21 @@ function answer($text){
 	while(true){
 		$regex = '/(ขอ|ลืม).?(user|ยุสเซอ|ยูสเซอร์|ยุสเซอร์|ยูสเซอ|รหัส|รหัสผ่าน).{0,20}polis/i';
 		if(preg_match($regex ,$text)){	
-			$hint = "ถ้าไม่มี userPOLIS หรือ ลืมรหัส https://drive.google.com/open?id=0B7nTI-InTW94MXBucjc1d1FKSDQ
-			\nหากพบปัญหาในการสมัครใช้งาน สามารถติดต่อได้ที่
-			\nLine ID : @citc.database";
+			$hint = "ถ้าไม่มี userPOLIS หรือ ลืมรหัส https://drive.google.com/open?id=0B7nTI-InTW94MXBucjc1d1FKSDQ";
 			break;
 		}
 		
 		$regex = '/(ช่วยราชการ)/i';
 		if(preg_match($regex ,$text)){	
 		$hint = "กรณีมาช่วยราชการ ให้ทำผ่านระบบ Polis เข้ามา
-			\nวิธีการขอดังนี้ : https://drive.google.com/open?id=1m81LqrOcnGX8RpplxE0WeOK91Pxw7Lmh
-			\nหากพบปัญหาในการสมัครใช้งาน สามารถติดต่อได้ที่
-			\nLine ID : @citc.database";
+			\nวิธีการขอดังนี้ : https://drive.google.com/open?id=1m81LqrOcnGX8RpplxE0WeOK91Pxw7Lmh";
 			break;
 		}
 
 		$regex = '/(ขอ|ลืม).?(user|ยุสเซอ|ยูสเซอร์|ยุสเซอร์|ยูสเซอ|รหัส|รหัสผ่าน).{0,20}ptm/i';
 		if(preg_match($regex ,$text)){	
 			$hint = "user และ password ของระบบ PTM ใช้รหัสเดียวกับ Polis ดูวิธีขอได้ที่นี่
-			\nhttps://drive.google.com/open?id=0B7nTI-InTW94MXBucjc1d1FKSDQ
-			\nหากพบปัญหาในการสมัครใช้งาน สามารถติดต่อได้ที่
-			\nLine ID : @citc.database";
+			\nhttps://drive.google.com/open?id=0B7nTI-InTW94MXBucjc1d1FKSDQ";
 			break;
 		}
 
@@ -71,9 +65,7 @@ function answer($text){
 			\nวิธีการขอดังนี้ : https://drive.google.com/open?id=1m81LqrOcnGX8RpplxE0WeOK91Pxw7Lmh
 			\nหากเป็นเจ้าหน้าที่ ภจว. ทำการแจกจ่ายใบสั่งให้กดขอช่วยราชการที่ ภจว. ตนเองมาด้วย
 			\nสิทธิใบสั่งกล้องอนุมัติเฉพาะหน่วยงานที่ทำโครงการส่งมาแล้วเท่านั้น
-			\nกำหนดหลักเกณฑ์ใบสั่งกล้อง : https://drive.google.com/open?id=1_r35omdRiw1jsNW7M8LrPZfoyB3UZCvI
-			\nหากพบปัญหาในการสมัครใช้งาน สามารถติดต่อได้ที่
-			\nLine ID : @citc.database";
+			\nกำหนดหลักเกณฑ์ใบสั่งกล้อง : https://drive.google.com/open?id=1_r35omdRiw1jsNW7M8LrPZfoyB3UZCvI";
 			break;
 		}
 		
