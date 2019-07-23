@@ -72,7 +72,7 @@ function answer($text){
 			\nกำหนดหลักเกณฑ์ใบสั่งกล้อง : https://drive.google.com/open?id=1_r35omdRiw1jsNW7M8LrPZfoyB3UZCvI
 			\nตัวอย่างโครงการ https://drive.google.com/open?id=1P9kC9MUNaGzGmMzTD44XfOGxbKG46hER
 			\nเมื่อหน่วยงานต้นสังกัดอนุมัติโครงการแล้ว ให้ส่งสำเนาโครงการที่อนุมัติแล้วมายัง ศทก. พร่อมด้วยรายชื่อ และรหัสผู้ใช้งาน เพื่อทำการกำหนดสิทธิต่อไป
-			\nพบปัญหาติดต่อที่ Line@ = @02-205-2316";
+			\nพบปัญหาหรือส่งโครงการ PTM ติดต่อที่ Line@ = @02-205-2316";
 			break;
 		}
 		
