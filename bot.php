@@ -68,10 +68,7 @@ function answer($text){
 			\nวิธีการขอดังนี้ : https://drive.google.com/open?id=1m81LqrOcnGX8RpplxE0WeOK91Pxw7Lmh
 			\nหากเป็นเจ้าหน้าที่ ภจว. ทำการแจกจ่ายใบสั่งให้กดขอช่วยราชการที่ ภจว. ตนเองมาด้วย
 			\n
-			\nสิทธิใบสั่งกล้องอนุมัติเฉพาะหน่วยงานที่ทำโครงการส่งมาแล้วเท่านั้น
-			\nกำหนดหลักเกณฑ์ใบสั่งกล้อง : https://drive.google.com/open?id=1_r35omdRiw1jsNW7M8LrPZfoyB3UZCvI
-			\nตัวอย่างโครงการ https://drive.google.com/open?id=1P9kC9MUNaGzGmMzTD44XfOGxbKG46hER
-			\nเมื่อหน่วยงานต้นสังกัดอนุมัติโครงการแล้ว ให้ส่งสำเนาโครงการที่อนุมัติแล้วมายัง ศทก. พร่อมด้วยรายชื่อ และรหัสผู้ใช้งาน เพื่อทำการกำหนดสิทธิต่อไป
+			\nสิทธิใบสั่งกล้องในเวลานี้ยังไม่เปิดรับโครงการ ต้องรอนโยบาย ตร. ฉบับใหม่ครับ
 			\nพบปัญหาหรือส่งโครงการ PTM ติดต่อที่ Line@ = @02-205-2316";
 			break;
 		}
@@ -237,10 +234,6 @@ function answer($text){
 			สำหรับใช้งาน SSL-VPN ใหม่ จึงให้ท่านลงทะเบียนใหม่ พร้อมกรอกหมายเลข โทรศัพท์
 			เพื่อใช้ในการเข้าสู่ระบบในโปรแกรม Global Protect เปิดโปรแกรม Browser เช่น Google Chrome , IE หรือ Firefox และพิมพ์ที่อยู่เว็บไซต์ในช่อง
 			ด้านบนของโปรแกรม Browser เป็น http://118.175.46.5 หรือ http://sslvpn.police.go.th
-			\nดาวน์โหลดตัวอย่างเอกสาร 
-			https://drive.google.com/open?id=1uoZc-Q3PyR6xcy7Ndk9XqRi8JBTiFUVi
-			\nคู่มือการสมัครใช้งาน 
-			https://drive.google.com/open?id=1snx0Ub19sOU6ddDH3maLV-OypTkSfW8w
 			\nหากพบปัญหาในการสมัครใช้งาน สามารถติดต่อได้ที่
 			\nLine ID : @citc.network
 			\n*กลุ่มงานเครือข่าย 022052209
