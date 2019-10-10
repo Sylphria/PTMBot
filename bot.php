@@ -40,14 +40,16 @@ function answer($text){
 	while(true){
 		$regex = '/(ขอ|ลืม).?(user|ยุสเซอ|ยูสเซอร์|ยุสเซอร์|ยูสเซอ|รหัส|รหัสผ่าน).{0,20}polis/i';
 		if(preg_match($regex ,$text)){	
-			$hint = "ถ้าไม่มี userPOLIS หรือ ลืมรหัส https://drive.google.com/open?id=0B7nTI-InTW94MXBucjc1d1FKSDQ
+			$hint = "คู่มือการขอหรือแก้ไขรหัส POLIS/PTM
+			\nhttps://drive.google.com/open?id=0B7nTI-InTW94MXBucjc1d1FKSDQ
 			\nพบปัญหาติดต่อที่ Line@ = @02-205-2316";
 			break;
 		}
 		
 		$regex = '/(ช่วยราชการ)/i';
 		if(preg_match($regex ,$text)){	
-		$hint = "กรณีมาช่วยราชการ ให้ทำผ่านระบบ Polis เข้ามา
+		$hint = "การขอสิทธิ PTM และการช่วยราชการ
+			\nให้ทำผ่านระบบ Polis มาโดยช่องปฏิบัติหน้าที่ให้กรอกว่า 'ใช้งานระบบ PTM'
 			\nวิธีการขอดังนี้ : https://drive.google.com/open?id=1m81LqrOcnGX8RpplxE0WeOK91Pxw7Lmh
 			\nพบปัญหาติดต่อที่ Line@ = @02-205-2316";
 			break;
@@ -55,7 +57,7 @@ function answer($text){
 
 		$regex = '/(ขอ|ลืม).?(user|ยุสเซอ|ยูสเซอร์|ยุสเซอร์|ยูสเซอ|รหัส|รหัสผ่าน).{0,20}ptm/i';
 		if(preg_match($regex ,$text)){	
-			$hint = "user และ password ของระบบ PTM ใช้รหัสเดียวกับ Polis ดูวิธีขอได้ที่นี่
+			$hint = "คู่มือการขอหรือแก้ไขรหัส POLIS/PTM
 			\nhttps://drive.google.com/open?id=0B7nTI-InTW94MXBucjc1d1FKSDQ
 			\nพบปัญหาติดต่อที่ Line@ = @02-205-2316";
 			break;
@@ -63,7 +65,7 @@ function answer($text){
 
 		$regex = '/(ขอ|ขอเพิ่ม|เพิ่ม|ขอใช้).{0,10}(สิท|สิทธิ|สิด|สิทธิ์).*PTM/i';
 		if(preg_match($regex ,$text)){	
-			$hint = "การขอสิทธิ PTM ให้ทำผ่านระบบ Polis มา
+			$hint = "การขอสิทธิ PTM และการช่วยราชการ
 			\nโดยช่องปฏิบัติหน้าที่ให้กรอกว่า 'ใช้งานระบบ PTM'
 			\nวิธีการขอดังนี้ : https://drive.google.com/open?id=1m81LqrOcnGX8RpplxE0WeOK91Pxw7Lmh
 			\nหากเป็นเจ้าหน้าที่ ภจว. ทำการแจกจ่ายใบสั่งให้กดขอช่วยราชการที่ ภจว. ตนเองมาด้วย
